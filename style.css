@@ -1,0 +1,105 @@
+*{
+  font-family: 'Antic Slab', serif;
+}
+
+header{
+  text-align: center;
+  color: red;
+  background-color: greenyellow;
+  width: 100vw;
+  height: auto;
+}
+
+header img{
+  padding: 15px;
+  width: 25vw;
+}
+
+header h1{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 4rem;
+}
+
+header h2{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 3rem;
+}
+main{
+  width: 60vw;
+  margin: auto;
+
+}
+
+#hero-div {
+  display: flex;
+  border: 1px solid black;
+  align-content: space-between;
+}
+
+.left-side{
+  display: inline-block;
+}
+.right-side{
+  display: inline-block;
+  padding: 10px 0 0 25px;
+}
+
+#hero-div h2{
+  font-size: 3rem;
+}
+
+
+#hero-img {
+  
+  width: 25vw;
+}
+
+
+#intro-div h2, p{
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 15px;
+}
+
+#about-div h2, h3{
+  font-size: 4rem;
+}
+
+#about-div .left-side, .right-side{
+  width: 25vw;
+}
+
+#about-div li{
+  font-size: 1.5rem;
+}
+.parenthetical{
+  font-style: italic;
+  font-size: 1rem;
+  color: #444;
+}
+
+#contact-div h2{
+  font-size: 4rem;
+}
+#contact-div ol{
+  font-size: 2.5rem;
+}
+#contact-div a:active, a:hover{
+  color: greenyellow;
+}
+#contact-div li a:visited{
+  color: red;
+}
+
+footer{
+  width: 100vw;
+  height: auto;
+  background-color: greenyellow;
+  
+}
+footer h4{
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+  padding-top: 10px;
+}
